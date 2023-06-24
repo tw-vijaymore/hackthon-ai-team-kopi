@@ -141,15 +141,13 @@ def handle_input():
 
     llm_chain = st.session_state['llm_chain']
     chain = st.session_state['llm_app']
-
-    print("input ==> ")
-    print(input)
-
     result = chain.run_chain(llm_chain, input, chat_history)
 
     answer = result['answer']
     print("Answer ==> ")
     print(answer)
+    print("New input ==> ")
+    print(input)
     chat_history.append((input, answer))
     
     document_list = []
