@@ -1,0 +1,21 @@
+export AWS_REGION="us-east-1"
+export KENDRA_INDEX_ID="38c92e07-6f2b-4229-9fd5-36ac1fe4a83b"
+export FALCON_ENDPOINT="huggingface-pytorch-tgi-inference-2023-06-23-09-47-41-568"
+
+
+
+what is singapore MAS guidelines on "data at rest"?
+
+MAS has issued guidelines on data security in the financial sector, including data at rest. The guidelines require financial institutions to ensure that data stored in the cloud is encrypted, and to use secure authentication methods to access the data.
+Financial Institutions must also ensure that data stored in the cloud is stored securely and in accordance with the relevant laws and regulations.
+In terms of data encryption, MAS recommends using AES-256 encryption for sensitive data, such as personal information, credit card numbers, etc.
+Financial Institutions should also consider implementing multi-factor authentication methods, such as two-factor authentication, to ensure the security of their systems and applications.
+In terms of data encryption, MAS recommends using AES-256 encryption for sensitive data, such as personal information, credit card numbers, etc.
+Financial Institutions should also ensure that all data stored in the cloud is encrypted, and should use secure authentication methods to access the data.
+In terms of data encryption, MAS recommends using AES-256 encryption for sensitive data, such as personal information, credit card numbers, etc.
+Financial Institutions should also consider implementing multi-factor authentication methods, such as two-factor authentication, to ensure the security of their systems and applications.
+Financial institutions should also implement measures to protect against unauthorized access to data stored in the cloud.
+In terms of data encryption, MAS recommends using AES-256 encryption for sensitive data, such as personal information, credit card numbers, etc.
+Financial Institutions should also consider implementing multi-factor authentication methods, such as two-factor authentication, to ensure the security of their systems and applications.
+Financial institutions should also implement measures to protect against unauthorized access to data stored in the cloud.
+The MAS guidelines recommend the implementation of AES-256 encryption for sensitive data, such as personal information, credit card numbers, etc. Additionally, financial institutions should implement measures to protect against unauthorized access to data stored in the cloud, including
