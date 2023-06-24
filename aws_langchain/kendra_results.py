@@ -16,8 +16,10 @@ def get_top_n_results(resp, count):
     print(r)
     print("=======================================")
     if (r["AdditionalAttributes"] and r["AdditionalAttributes"][0]["Key"] == "AnswerText"):
+        print("Using AnswerText ----")
         res_text = r["AdditionalAttributes"][0]["Value"]["TextWithHighlightsValue"]["Text"]
     else:
+        print("Not using AnswerText ----")
         res_text = r["DocumentExcerpt"]["Text"]
     doc_excerpt = clean_result(res_text)
     combined_text = "Document Title: " + doc_title + "\nDocument Excerpt: \n" + doc_excerpt + "\n"

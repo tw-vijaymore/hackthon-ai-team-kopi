@@ -141,6 +141,10 @@ def handle_input():
 
     llm_chain = st.session_state['llm_chain']
     chain = st.session_state['llm_app']
+
+    print("input ==> ")
+    print(input)
+
     result = chain.run_chain(llm_chain, input, chat_history)
 
     answer = result['answer']
